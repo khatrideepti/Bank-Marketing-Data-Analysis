@@ -1,0 +1,5 @@
+bank <- read.csv("~/Spring 19 Sem/Multi Analysis/bank-additional/bank-additional-full.csv", sep=";")
+head(bank)
+dim(bank)
+summary(bank)
+str(bank)
