@@ -1,7 +1,7 @@
-# Bank-Marketing-Data-Analysis
+# Bank-Marketing-Data-Analysis:
 Multi variate analysis of Banking Marketing campaigns (over phone) of a Portuguese banking institution.
 
-# Main Objective
+# Main Objective:
 The main purpose of the analysis is to predict whether a client will subscribe a term deposit or not in this bank.
 
 # Attribute Information:
@@ -41,7 +41,7 @@ The dataset consist of 45211 records and 17 attributes.
 
 15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
 
-# Social and economic context attributes
+# Social and economic context attributes:
 16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
 
 17 - cons.price.idx: consumer price index - monthly indicator (numeric) 
