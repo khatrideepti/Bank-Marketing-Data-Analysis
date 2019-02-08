@@ -1,13 +1,13 @@
-#Bank-Marketing-Data-Analysis
+# Bank-Marketing-Data-Analysis
 Multi variate analysis of Banking Marketing campaigns (over phone) of a Portuguese banking institution.
 
-#Main Objective
+# Main Objective
 The main purpose of the analysis is to predict whether a client will subscribe a term deposit or not in this bank.
 
-#Attribute Information:
+# Attribute Information:
 The dataset consist of 45211 records and 17 attributes.
 
-#Input variables:
+# Input variables:
 # Bank Client data:
 1 - age (numeric)
 
