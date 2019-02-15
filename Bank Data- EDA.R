@@ -20,6 +20,11 @@ y_int=ifelse(bank$y=='no', 0, 1)
 
 plot(bank$age, bank$duration, pch=c(1,16)[y_int],xlab="Age",ylab="Duration")
 plot(bank$age, bank$campaign, pch=c(1,16)[y_int],xlab="Age", ylab="Campaign")
+
+#3d scatterplot
+library(scatterplot3d)
+s3d <- scatterplot3d(bank$age,bank$duration,bank$campaign,pch=c(1,16)[as.numeric(bank$y)],xlab="Age", ylab="Duration", angle=45,zlab="Campaign", lty.hide=2,type="h",y.margin.add=0.1,font.axis=2,font.lab=2)
+
      
 library(ggplot2)
 ggplot(bank,aes(x=bank$age,fill=bank$y)) + geom_histogram(binwidth=1) +
