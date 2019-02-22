@@ -303,6 +303,6 @@ leveneTest(bank_contact ~ y, data=bank_int)
 leveneTest(bank_marital ~ y, data=bank_int)
 
 
-#variance are not playing much role , so standarization helped a little after we had humerous
+
 
 
