@@ -1,5 +1,5 @@
 
-#Following is the checklist 
+# Following is the checklist 
   1. Understand the data, what are the features? What are the datatypes?
   2. Ask the right question, which we can answer from its analysis.
   3. Data cleaning - dealing with missing data 
