@@ -3,3 +3,4 @@ head(bank)
 dim(bank)
 summary(bank)
 str(bank)
+#just read the data in R and and checked the summary and data types of the features/columns 
