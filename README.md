@@ -24,38 +24,40 @@ The dataset consist of 45211 records and 17 attributes.
 
 7 - loan: has personal loan? (categorical: 'no','yes','unknown')
 
+8 - balance: average yearly balance, in euros (numeric) 
+
 # Related with the last contact of the current campaign:
-8 - contact: contact communication type (categorical: 'cellular','telephone') 
+9 - contact: contact communication type (categorical: 'cellular','telephone') 
 
-9 - month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
+10 - month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
 
-10 - day_of_week: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
+11 - day_of_week: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
 
-11 - duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
+12 - duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
 
 # Other attributes:
-12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+13 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
 
-13 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
+14 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
 
-14 - previous: number of contacts performed before this campaign and for this client (numeric)
+15 - previous: number of contacts performed before this campaign and for this client (numeric)
 
-15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
+16 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
 
 # Social and economic context attributes:
-16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
+17 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
 
-17 - cons.price.idx: consumer price index - monthly indicator (numeric) 
+18 - cons.price.idx: consumer price index - monthly indicator (numeric) 
 
-18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric) 
+19 - cons.conf.idx: consumer confidence index - monthly indicator (numeric) 
 
-19 - euribor3m: euribor 3 month rate - daily indicator (numeric)
+20 - euribor3m: euribor 3 month rate - daily indicator (numeric)
 
-20 - nr.employed: number of employees - quarterly indicator (numeric)
+21 - nr.employed: number of employees - quarterly indicator (numeric)
 
 # Output variable (desired target):
 
-21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
+22 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
 
 
